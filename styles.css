@@ -5,7 +5,8 @@
   .image-list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;         
+    max-width: 600px;         
     max-width: 400px;
   }
   .image-list li {
@@ -19,5 +20,5 @@
   }
   .img-Big{
     width: 100%;
-    height: 100px;
+    height: 140px;
   }
