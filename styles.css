@@ -75,6 +75,7 @@
       position: fixed;
       top: 20px;
       right: 20px;
+      max-width: 20%;
       padding: 8px 14px;
       background: #222;
       color: #eee;
@@ -90,6 +91,7 @@
     }
     nav {
     text-align: left;
+    max-width: 80%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     position: fixed;
