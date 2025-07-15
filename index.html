@@ -7,6 +7,7 @@
   <title>Stachu chuj</title>
 </head>
 <body>
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
     <section class="title">
         <img class="img-Big" src="SC1.gif"/>
     </section>
@@ -25,5 +26,10 @@
         <img src="SC7.png" alt="Footer Image" class="footer-img" />
   </div>
 </footer>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
 </body>
 </html>
