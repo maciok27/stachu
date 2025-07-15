@@ -88,3 +88,22 @@
       background: #eee;
       color: #111;
     }
+    nav {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: fixed;
+    margin-bottom: 20px;
+    }
+
+    nav a {
+    color: #0077cc;
+    
+    font-size: large;
+    text-decoration: none;
+    margin: 0 10px;
+    }
+
+    nav a:hover {
+    text-decoration: underline;
+    }
