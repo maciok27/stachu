@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:ghpages": "ng build --configuration production --base-href '/'",
+    "deploy": "npm run build:ghpages && npx angular-cli-ghpages --dir=dist/stachu"
   },
   "private": true,
   "dependencies": {
