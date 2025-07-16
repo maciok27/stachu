@@ -7,6 +7,10 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
   line-height: 1.6;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+}
 html, body {
   height: 100%;
   width: 100%;
@@ -134,3 +138,18 @@ nav a:hover {
   text-decoration: underline;
   color: #ffffff;
 }
+/* Games list*/ 
+.games-list-item{
+  color: #fff;
+  background-color: #222;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+}
+.games-list-item:hover {
+  color: #66b2ff;
+  background-color: #666;
+}
+

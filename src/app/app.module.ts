@@ -7,6 +7,8 @@ import { BlackmailComponent } from './blackmail/blackmail.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { GamesComponent } from './games/games.component';
+import { ClickerComponent } from './clicker/clicker.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { GalleryComponent } from './gallery/gallery.component';
     BlackmailComponent,
     NavbarComponent,
     FooterComponent,
-    GalleryComponent
+    GalleryComponent,
+    GamesComponent,
+    ClickerComponent
   ],
   imports: [
     BrowserModule,
