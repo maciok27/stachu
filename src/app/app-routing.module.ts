@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { AppComponent } from './app.component';
+import { BlackmailComponent } from './blackmail/blackmail.component';
+
+const routes: Routes = [
+  { path: '', component: AppComponent },        // default route
+  { path: 'about', component: BlackmailComponent },  // /about route
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
