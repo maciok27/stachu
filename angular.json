@@ -20,7 +20,13 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/stachu.ico",
+              "src/assets",
+              {
+              "glob": "CNAME",
+              "input": "src",
+              "output": "./"
+              }
             ],
             "styles": [
               "src/styles.css"
@@ -87,6 +93,7 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
+              "src/stachu.ico",
               "src/assets",
               {
               "glob": "CNAME",
@@ -102,6 +109,7 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy"
+          
         }
       }
     }

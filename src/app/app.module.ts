@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BlackmailComponent } from './blackmail/blackmail.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlackmailComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

@@ -6,8 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Stachu';
-  toggleDarkMode(){
-    document.body.classList.toggle("dark-mode");
-  }
+  title = 'Stachu chuj';
 }

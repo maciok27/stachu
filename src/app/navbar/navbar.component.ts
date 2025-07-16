@@ -11,5 +11,7 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  toggleDarkMode(){
+    document.body.classList.toggle('dark-mode');
+  }
 }
