@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { GamesComponent } from './games/games.component';
 import { ClickerComponent } from './clicker/clicker.component';
+import { ShooterComponent } from './shooter/shooter.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ClickerComponent } from './clicker/clicker.component';
     FooterComponent,
     GalleryComponent,
     GamesComponent,
-    ClickerComponent
+    ClickerComponent,
+    ShooterComponent
   ],
   imports: [
     BrowserModule,
